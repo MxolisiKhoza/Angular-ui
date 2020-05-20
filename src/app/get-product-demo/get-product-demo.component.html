@@ -1,0 +1,18 @@
+<h2>Get Product</h2> 
+
+<hr/>
+<div *ngIf="product">
+  <div>
+    <label><b>Product Id: </b></label> {{product.productId}}
+  </div>
+  <div>
+    <label><b>Product Name: </b></label> {{product.name}}
+  </div>  
+  <div>
+    <label><b>Price:</b></label> {{product.price}}
+  </div>  
+</div>
+
+<br>
+<br>
+<button routerLink="/products" class="btn btn-primary">Back to Product List</button><br>
